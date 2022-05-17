@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .main{
+                height:80vh;
+                width:80vw;
+                background-image:linear-gradient(to right,red,orange,pink,yellow,green);
+                margin:auto;
+            }
+            .input:hover{background: linear-gradient(to bottom,green,orange, yellow);}
+            .submit:hover{background: linear-gradient(to bottom,green,orange, yellow);
+width: 90%;}
+        </style>
+    </head>
+    <body style="background-color:pink;">
+        <div class="main">
+            <h1 style="background-color: cyan;border: blue 1px solid;text-align: center;text-shadow: -5px -5px red;margin: 0;">Welcome to Chitkara University!!</h1>
+<h1 style="background-color: cyan;border: blue 1px solid;text-align: center;text-shadow: -5px -5px red;margin: 0;">Survey form</h1>
+<div class="main" style="border: blue dashed 1px;border-left:green dashed 1px;border-right:red dashed 1px;">
+	<p>Please Fill The Survey Form!!</p>
+    <form style="width: 100%;">
+    	<table style="width: 100%;">
+        	<tr>
+            	<td>*Name</td>
+                <td><input class="input" type="text" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+            	<td>*Email</td>
+                <td><input class="input" type="email" placeholder="Enter Your Email"></td>
+            </tr>
+            <tr>
+            	<td>*Age</td>
+                <td><input class="input" type="number" placeholder="18" min="18" max="50"></td>
+            </tr>
+            <tr>
+            	<td>Which option describe your best role in chitkara</td>
+                <td><select class="input" ><option>student</option><option>teacher</option></select></td>
+            </tr>
+            <tr>
+                <td>*How likely is that you would recommend<br>Chitkara University to a friend? </td>
+                <td><ul type="none">
+                    <input type="radio" name="1">Definitely<br>
+                    <input type="radio" name="1">Maybe
+                </ul></td>
+            </tr>
+            <tr>
+                <td>
+                    What do you like most in Chitkara University:
+                </td>
+                <td>
+                    <select class="input">
+                        <option>Select An Option</option>
+                        <option>Alpha Zone</option>
+                        <option>Beta Zone</option>
+                        <option>Gama Zone</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Things that should be inproved in future<br>
+                    (Check all the apply):
+                </td>
+                <td>
+                    <input  type="checkbox">Food Quality<br>
+                    <input type="checkbox">Parking Area                </td>
+            <tr>
+                <td style="text-align: center;">
+                    <input class="submit" type="button" value="Submit" style="background-color: yellow;">
+                </td>
+            </tr>    
+                
+        </table>
+    </form>
+        </div>
+    </body>
+</html
